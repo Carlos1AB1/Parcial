@@ -1,0 +1,9 @@
+
+> libreria-parcial-carlos-baron@1.0.0 bdd
+> cucumber-js
+
+...............
+
+5 scenarios (5 passed)
+15 steps (15 passed)
+0m00.005s (executing steps: 0m00.000s)

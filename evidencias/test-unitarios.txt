@@ -1,0 +1,19 @@
+
+> libreria-parcial-carlos-baron@1.0.0 test
+> jest --coverage
+
+PASS tests/regla3.test.js
+PASS tests/regla2.test.js
+PASS tests/regla1.test.js
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |      100 |     100 |     100 |                   
+ producto.js |     100 |      100 |     100 |     100 |                   
+-------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 3 passed, 3 total
+Tests:       8 passed, 8 total
+Snapshots:   0 total
+Time:        0.305 s
+Ran all test suites.
