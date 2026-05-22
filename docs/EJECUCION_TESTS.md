@@ -142,5 +142,5 @@ features/
 ## Evidencias Guardadas
 
 Los outputs completos de cada ejecución están guardados en:
-- `docs/screenshots/test-unitarios-output.txt`
-- `docs/screenshots/test-bdd-output.txt`
+- `docs/evidencias/test-unitarios-output.txt`
+- `docs/evidencias/test-bdd-output.txt`

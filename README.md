@@ -78,5 +78,5 @@ npm run bdd
 **📄 Ver documentación completa en:** [docs/EJECUCION_TESTS.md](docs/EJECUCION_TESTS.md)
 
 **📸 Evidencias de ejecución:**
-- [test-unitarios-output.txt](docs/screenshots/test-unitarios-output.txt)
-- [test-bdd-output.txt](docs/screenshots/test-bdd-output.txt)
+- [test-unitarios-output.txt](docs/evidencias/test-unitarios-output.txt)
+- [test-bdd-output.txt](docs/evidencias/test-bdd-output.txt)
