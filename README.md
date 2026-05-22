@@ -43,18 +43,40 @@
 
 ---
 
-## Reporte de Cobertura Final
-> *Ejecutar npm run test para visualizar cobertura*
+## Ejecución de Tests
+
+### ✅ Tests Unitarios (Jest)
+```bash
+npm run test
+```
+
+**Resultado:** 8 tests pasados con cobertura 100%
 
 ```text
-```
-> libreria-parcial-archu@1.0.0 test
-> jest --coverage
+Test Suites: 3 passed, 3 total
+Tests:       8 passed, 8 total
 
--------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- producto.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines 
+-------------|---------|----------|---------|----------
+All files    |     100 |      100 |     100 |     100
+ producto.js |     100 |      100 |     100 |     100
 ```
+
+### ✅ Tests BDD (Cucumber)
+```bash
+npm run bdd
+```
+
+**Resultado:** 5 escenarios pasados, 15 steps completados
+
+```text
+5 scenarios (5 passed)
+15 steps (15 passed)
+0m00.006s
+```
+
+**📄 Ver documentación completa en:** [docs/EJECUCION_TESTS.md](docs/EJECUCION_TESTS.md)
+
+**📸 Evidencias de ejecución:**
+- [test-unitarios-output.txt](docs/screenshots/test-unitarios-output.txt)
+- [test-bdd-output.txt](docs/screenshots/test-bdd-output.txt)
