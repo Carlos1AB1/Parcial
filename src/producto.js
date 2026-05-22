@@ -14,5 +14,11 @@ class Producto {
         }
         this.descuento = porcentaje;
     }
+
+    calcularPrecioFinal() {
+        const precioConDescuento = this.precioBase * (1 - (this.descuento / 100));
+        const precioFinal = precioConDescuento * 1.19;
+        return Number(precioFinal.toFixed(2));
+    }
 }
 module.exports = { Producto };
