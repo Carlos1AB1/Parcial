@@ -27,10 +27,6 @@ Then('el precio final debe ser {float}', function (precioEsperado) {
   assert.strictEqual(precioFinal, precioEsperado);
 });
 
-Then('el precio final debe ser {int}', function (precioEsperado) {
-  const precioFinal = producto.calcularPrecioFinal();
-  assert.strictEqual(precioFinal, precioEsperado);
-});
 
 Then('el sistema debe rechazarlo arrojando un error', function () {
   assert.notStrictEqual(errorLanzado, null, "Deberia haber lanzado un error");
