@@ -78,5 +78,11 @@ npm run bdd
 **📄 Ver documentación completa en:** [docs/EJECUCION_TESTS.md](docs/EJECUCION_TESTS.md)
 
 **📸 Evidencias de ejecución:**
+
+**Jest (Tests Unitarios):**
+![Jest Test Coverage](docs/evidencias/jest.png)
 - [test-unitarios-output.txt](docs/evidencias/test-unitarios-output.txt)
+
+**Cucumber (BDD):**
+![Cucumber BDD Tests](docs/evidencias/bdd.png)
 - [test-bdd-output.txt](docs/evidencias/test-bdd-output.txt)
