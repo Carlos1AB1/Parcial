@@ -45,44 +45,14 @@
 
 ## Ejecución de Tests
 
-### ✅ Tests Unitarios (Jest)
-```bash
-npm run test
-```
-
-**Resultado:** 8 tests pasados con cobertura 100%
-
-```text
-Test Suites: 3 passed, 3 total
-Tests:       8 passed, 8 total
-
-File         | % Stmts | % Branch | % Funcs | % Lines 
--------------|---------|----------|---------|----------
-All files    |     100 |      100 |     100 |     100
- producto.js |     100 |      100 |     100 |     100
-```
-
-### ✅ Tests BDD (Cucumber)
-```bash
-npm run bdd
-```
-
-**Resultado:** 5 escenarios pasados, 15 steps completados
-
-```text
-5 scenarios (5 passed)
-15 steps (15 passed)
-0m00.006s
-```
-
-**📄 Ver documentación completa en:** [docs/EJECUCION_TESTS.md](docs/EJECUCION_TESTS.md)
-
 **📸 Evidencias de ejecución:**
 
-**Jest (Tests Unitarios):**
+**Jest (Tests Unitarios) - 8 tests pasados, cobertura 100%:**
 ![Jest Test Coverage](docs/evidencias/jest.png)
 - [test-unitarios-output.txt](docs/evidencias/test-unitarios-output.txt)
 
-**Cucumber (BDD):**
+**Cucumber (BDD) - 5 escenarios pasados, 15 steps completados:**
 ![Cucumber BDD Tests](docs/evidencias/bdd.png)
 - [test-bdd-output.txt](docs/evidencias/test-bdd-output.txt)
+
+**📄 Ver documentación completa en:** [docs/EJECUCION_TESTS.md](docs/EJECUCION_TESTS.md)
